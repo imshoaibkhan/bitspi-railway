@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_and_services",
+  "info": {
+    "singularName": "product-and-service",
+    "pluralName": "product-and-services",
+    "displayName": "product and service",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product": {
+      "displayName": "product",
+      "type": "component",
+      "repeatable": false,
+      "component": "block.product"
+    },
+    "heroBgImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "services": {
+      "type": "dynamiczone",
+      "components": [
+        "block.services"
+      ]
+    }
+  }
+}

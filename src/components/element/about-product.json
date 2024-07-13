@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_element_about_products",
+  "info": {
+    "displayName": "about-product",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.about-card"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_block_products",
+  "info": {
+    "displayName": "product",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heroHeading": {
+      "type": "string"
+    },
+    "heroTagline": {
+      "type": "text"
+    },
+    "heroBtnLink": {
+      "type": "string"
+    },
+    "heroBtnText": {
+      "type": "string"
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "element.about-product"
+    }
+  }
+}

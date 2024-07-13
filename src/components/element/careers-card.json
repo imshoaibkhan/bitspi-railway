@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_element_careers_cards",
+  "info": {
+    "displayName": "careers-card"
+  },
+  "options": {},
+  "attributes": {
+    "iconClassName": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

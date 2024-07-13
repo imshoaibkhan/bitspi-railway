@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "terms_and_services",
+  "info": {
+    "singularName": "terms-and-service",
+    "pluralName": "terms-and-services",
+    "displayName": "terms and service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    }
+  }
+}

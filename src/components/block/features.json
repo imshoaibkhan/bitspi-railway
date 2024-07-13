@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_block_features",
+  "info": {
+    "displayName": "features",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headingFeature1": {
+      "type": "text"
+    },
+    "headingFeature2": {
+      "type": "text"
+    },
+    "headingFeature3": {
+      "type": "text"
+    },
+    "feature1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.feature-list"
+    },
+    "feature2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.feature2"
+    },
+    "feature3": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.feature3"
+    }
+  }
+}

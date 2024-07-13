@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_block_our_values",
+  "info": {
+    "displayName": "our-value",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.card"
+    }
+  }
+}

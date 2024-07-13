@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_block_testimonials",
+  "info": {
+    "displayName": "testimonials"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "details": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.testimonial-details"
+    }
+  }
+}

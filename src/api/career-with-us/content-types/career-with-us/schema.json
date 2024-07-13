@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "career_with_uses",
+  "info": {
+    "singularName": "career-with-us",
+    "pluralName": "career-with-uses",
+    "displayName": "career with us",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.careers-card"
+    }
+  }
+}

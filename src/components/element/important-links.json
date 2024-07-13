@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_block_important_links",
+  "info": {
+    "displayName": "important-links",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

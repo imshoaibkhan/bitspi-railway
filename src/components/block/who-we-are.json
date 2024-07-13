@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_block_who_we_ares",
+  "info": {
+    "displayName": "who-we-are",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

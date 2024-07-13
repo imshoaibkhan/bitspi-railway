@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_block_our_services",
+  "info": {
+    "displayName": "our-services",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_element_client_images",
+  "info": {
+    "displayName": "client-images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

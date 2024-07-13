@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_element_about_cards",
+  "info": {
+    "displayName": "about-card"
+  },
+  "options": {},
+  "attributes": {
+    "iconClassName": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

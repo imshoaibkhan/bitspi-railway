@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_element_feature3s",
+  "info": {
+    "displayName": "Feature3"
+  },
+  "options": {},
+  "attributes": {
+    "iconClassName": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

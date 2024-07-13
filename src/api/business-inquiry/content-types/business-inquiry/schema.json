@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "business_inquiries",
+  "info": {
+    "singularName": "business-inquiry",
+    "pluralName": "business-inquiries",
+    "displayName": "business inquiry"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.about-card"
+    }
+  }
+}

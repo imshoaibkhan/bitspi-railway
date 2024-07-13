@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_block_services",
+  "info": {
+    "displayName": "services",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.card"
+    },
+    "serviceDetails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.service-details"
+    }
+  }
+}
